@@ -1,0 +1,363 @@
+2025-06-22 06:47:56,084 - IdleStoryModule - INFO - 待机剧情控制器已启动
+2025-06-22 06:47:56,095 - IdleStoryModule - INFO - Receiver: Successfully connectedt to ws://localhost:8772?name=Agent_Module
+2025-06-22 06:47:58,202 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 06:47:58,303 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 10, 'OpenRandomBehaviour': True, 'RandomBehaviourSwitchingIntervals': 2}
+2025-06-22 06:48:34,794 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 06:48:34,894 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 06:48:44,996 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 06:49:29,772 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 06:50:03,926 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 06:50:05,927 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 06:50:06,028 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 7, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 06:50:06,028 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 06:50:09,337 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 06:50:09,438 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 06:50:09,538 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 06:50:19,639 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 06:51:54,827 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 06:52:43,909 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 06:52:45,909 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 06:52:46,009 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 06:52:46,010 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 06:52:49,016 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 06:52:49,116 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 06:52:49,217 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 06:52:59,317 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 06:54:29,606 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 06:55:07,076 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 06:55:09,077 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 06:55:09,178 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 06:55:09,178 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 06:55:12,384 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 06:55:12,485 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 06:55:12,585 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 06:55:22,686 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 06:56:44,681 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 06:57:16,530 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 06:57:18,531 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 06:57:18,631 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 06:57:18,632 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 06:57:21,037 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 06:57:21,137 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 06:57:21,238 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 06:57:31,339 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:04:36,544 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:05:16,203 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:05:18,203 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:05:18,303 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:05:18,303 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:05:21,109 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:05:21,209 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:05:21,309 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:05:31,411 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:07:10,145 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:07:42,604 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:07:44,605 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:07:44,705 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:07:44,706 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:07:47,413 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:07:47,513 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:07:47,613 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:07:57,714 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:08:58,246 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:09:36,617 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:09:38,618 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:09:38,719 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 3, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:09:38,719 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:09:42,531 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:09:42,631 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:09:42,732 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:09:52,833 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:10:47,233 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:11:25,605 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:11:27,606 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:11:27,706 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 10, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:11:27,707 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:11:31,817 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:11:31,917 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:11:32,018 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:11:42,119 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:12:56,369 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:13:28,124 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:13:30,124 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:13:30,225 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 3, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:13:30,225 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:13:32,831 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:13:32,932 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:13:33,032 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:13:43,133 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:14:58,706 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:15:37,677 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:15:39,677 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:15:39,778 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:15:39,778 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:15:43,891 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:15:43,992 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:15:44,092 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:15:54,193 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:17:43,056 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:18:28,866 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:18:30,866 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:18:30,966 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:18:30,966 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:18:33,774 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:18:33,874 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:18:33,975 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:18:44,076 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:20:07,517 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:20:39,969 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:20:41,970 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:20:42,070 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:20:42,070 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:20:45,679 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:20:45,779 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:20:45,880 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:20:55,983 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:22:19,028 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:22:52,590 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:22:54,590 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:22:54,691 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 3, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:22:54,691 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:22:57,898 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:22:57,999 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:22:58,099 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:23:08,200 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:24:29,343 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:25:08,723 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:25:10,723 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:25:10,824 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 10, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:25:10,824 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:25:13,231 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:25:13,331 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:25:13,432 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:25:23,533 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:26:48,511 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:27:28,080 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:27:30,080 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:27:30,181 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 10, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:27:30,181 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:27:33,888 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:27:33,989 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:27:34,089 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:27:44,190 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:28:34,907 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:29:18,693 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:29:20,694 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:29:20,795 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 3, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:29:20,795 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:29:24,704 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:29:24,804 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:29:24,904 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:29:35,005 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:30:26,199 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:30:57,557 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:30:59,557 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:30:59,658 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 10, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:30:59,658 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:31:02,866 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:31:02,966 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:31:03,066 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:31:13,167 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:33:00,546 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:33:36,916 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:33:38,917 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:33:39,018 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 10, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:33:39,018 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:33:42,928 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:33:43,029 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:33:43,129 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:33:53,230 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:34:51,844 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:35:29,930 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:35:31,930 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:35:32,030 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 7, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:35:32,031 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:35:34,742 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:35:34,842 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:35:34,943 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:35:45,047 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:37:18,644 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:38:01,231 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:38:03,231 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:38:03,332 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 10, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:38:03,332 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:38:07,240 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:38:07,340 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:38:07,441 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:38:17,542 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:39:54,371 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:40:30,933 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:40:32,933 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:40:33,033 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:40:33,033 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:40:35,939 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:40:36,040 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:40:36,141 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:40:46,242 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:41:51,889 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:42:30,368 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:42:32,369 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:42:32,469 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 10, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:42:32,469 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:42:35,676 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:42:35,777 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:42:35,877 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:42:45,978 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:44:20,909 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:45:06,685 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:45:08,686 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:45:08,786 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 10, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:45:08,786 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:45:12,895 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:45:12,995 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:45:13,096 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:45:23,197 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:47:13,154 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:47:57,725 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:47:59,725 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:47:59,826 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:47:59,826 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:48:02,832 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:48:02,932 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:48:03,033 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:48:13,134 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:49:35,888 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:50:22,102 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:50:24,102 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:50:24,203 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 10, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:50:24,203 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:50:27,816 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:50:27,917 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:50:28,017 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:50:38,119 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:52:10,835 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:52:43,391 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:52:45,392 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:52:45,493 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:52:45,493 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:52:48,100 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:52:48,201 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:52:48,301 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:52:58,401 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:54:31,239 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:55:03,699 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:55:05,700 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:55:05,800 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 3, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:55:05,800 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:55:08,307 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:55:08,408 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:55:08,509 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:55:18,609 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:56:06,800 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:56:41,655 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:56:43,655 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:56:43,756 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 3, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:56:43,756 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:56:47,463 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:56:47,564 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:56:47,664 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:56:57,765 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 07:58:15,108 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 07:58:50,662 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 07:58:52,662 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 07:58:52,762 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 7, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 07:58:52,763 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 07:58:56,171 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 07:58:56,271 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 07:58:56,372 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 07:59:06,473 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 08:00:38,345 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 08:01:26,850 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 08:01:28,850 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 08:01:28,952 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 7, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 08:01:28,952 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 08:01:32,762 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 08:01:32,862 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 08:01:32,963 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 08:01:43,064 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 08:02:24,354 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 08:03:06,640 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 08:03:08,641 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 08:03:08,741 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 3, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 08:03:08,741 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 08:03:12,756 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 08:03:12,856 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 08:03:12,957 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 08:03:23,058 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 08:05:03,823 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 08:05:49,116 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 08:05:51,116 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 08:05:51,217 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 08:05:51,217 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 08:05:55,029 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 08:05:55,129 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 08:05:55,230 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 08:06:05,331 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 08:07:54,300 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 08:08:37,501 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 08:08:39,502 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 08:08:39,602 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 08:08:39,602 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 08:08:43,113 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 08:08:43,213 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 08:08:43,314 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 08:08:53,415 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 08:10:11,899 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 08:10:57,290 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 08:10:59,291 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 08:10:59,391 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 7, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 08:10:59,391 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 08:11:02,400 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 08:11:02,500 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 08:11:02,601 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 08:11:12,701 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 08:12:17,641 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 08:12:50,301 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 08:12:52,301 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 08:12:52,402 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 3, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 08:12:52,402 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 08:12:55,408 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 08:12:55,508 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 08:12:55,609 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 08:13:05,710 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 08:14:25,584 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 08:14:57,946 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 08:14:59,946 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 08:15:00,047 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 3, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 08:15:00,047 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 08:15:04,057 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 08:15:04,157 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 08:15:04,257 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 08:15:14,358 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 08:16:31,735 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 08:17:07,108 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 08:17:09,108 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 08:17:09,209 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 10, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 08:17:09,209 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 08:17:12,620 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 08:17:12,721 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 08:17:12,821 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 08:17:22,922 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 08:19:05,685 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 08:19:40,551 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 08:19:42,552 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 08:19:42,653 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 0, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 08:19:42,653 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 08:19:44,860 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 08:19:44,961 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 08:19:45,061 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 08:19:55,162 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 08:21:00,877 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 08:21:49,771 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 08:21:51,772 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 08:21:51,872 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 3, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 08:21:51,872 - IdleStoryModule - INFO - 状态已重置到初始化
+2025-06-22 08:21:54,378 - IdleStoryModule - INFO - 开始执行初始化
+2025-06-22 08:21:54,478 - IdleStoryModule - INFO - 触发猫咪互动剧情
+2025-06-22 08:21:54,579 - IdleStoryModule - INFO - 已发送指令: {'SetCatMeow': False, 'NeedSetCatMeow': True}
+2025-06-22 08:22:04,679 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Shy'}
+2025-06-22 08:23:12,300 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Chair_Point', 'PresetBehaviour': 'Sit_Down'}
+2025-06-22 08:23:43,444 - IdleStoryModule - INFO - 已发送指令: {'PresetBehaviour': 'Sit_Up'}
+2025-06-22 08:23:45,444 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point'}
+2025-06-22 08:23:54,878 - IdleStoryModule - INFO - 已发送指令: {'PresetPoint': 'Origin_Point', 'NeedChangeView': True, 'ViewIndex': 7, 'OpenRandomBehaviour': True, 'RandomBehaviourInterval': 10}
+2025-06-22 08:23:54,879 - IdleStoryModule - INFO - 状态已重置到初始化

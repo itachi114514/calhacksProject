@@ -1,0 +1,265 @@
+启动带缓冲的音频转发器...
+  - 作为服务端监听: ws://0.0.0.0:8769
+  - 作为客户端连接: ws://localhost:8767?name=Unity_Module
+  - 转发块大小: 4096 bytes
+[服务端 8769] 已启动并监听
+[接收端 8767] 尝试连接到 ws://localhost:8767?name=Unity_Module...
+[发送端 8769] 发送任务已启动
+[接收端 8767] 成功连接到 ws://localhost:8767?name=Unity_Module
+[服务端 8769] 客户端 ('127.0.0.1', 56278) 已连接
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourSwitchingIntervals": 2}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 打断unity，清空缓冲区}
+[接收端 8767] 收到 SAY:false，清空缓冲区和数据可用事件
+[服务端 8769] 打断unity，清空缓冲区}
+[接收端 8767] 收到 SAY:false，清空缓冲区和数据可用事件
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给Unity: {'Movement': 'Tiptoe_and_Wave_'}
+[服务端 8769] 发送动作数据给Unity: {'Movement': 'Slap_'}
+[服务端 8769] 发送动作数据给Unity: {'Movement': 'Slap_'}
+[服务端 8769] 发送动作数据给Unity: {'Movement': 'Tiptoe_and_Wave_'}
+[服务端 8769] 发送动作数据给Unity: {'Movement': 'Scare_'}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 活动客户端连接已清除 (('127.0.0.1', 56278))
+[接收端 8767] 连接关闭: sent 1011 (internal error) keepalive ping timeout; no close frame received. 5秒后重试...
+[接收端 8767] 尝试连接到 ws://localhost:8767?name=Unity_Module...
+[接收端 8767] 成功连接到 ws://localhost:8767?name=Unity_Module
+[服务端 8769] 客户端 ('127.0.0.1', 45724) 已连接
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 客户端 ('127.0.0.1', 46408) 已连接
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 客户端 ('127.0.0.1', 42104) 已连接
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[服务端 8769] 发送动作数据给unity: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Shy"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[服务端 8769] 发送动作数据给unity: {"PresetBehaviour": "Sit_Up"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point"}
+[服务端 8769] 发送动作数据给unity: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}

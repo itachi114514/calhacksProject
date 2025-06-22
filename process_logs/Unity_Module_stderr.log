@@ -1,0 +1,31 @@
+/home/itachi/Projects/python/hikari_mirror/Unity_Module/unity_module.py:68: DeprecationWarning: websockets.WebSocketServerProtocol is deprecated
+  async def server_handler(websocket: websockets.WebSocketServerProtocol):
+2025-06-22 06:47:55,798 - AudioForwarderBuffered - INFO - Starting Buffered Audio Forwarder...
+2025-06-22 06:47:55,800 - websockets.server - INFO - server listening on 0.0.0.0:8769
+2025-06-22 06:47:55,800 - AudioForwarderBuffered - INFO - Server is listening on ws://0.0.0.0:8769
+2025-06-22 06:47:55,801 - AudioForwarderBuffered - INFO - Receiver: Attempting to connect to listener at ws://localhost:8767?name=Unity_Module...
+2025-06-22 06:47:55,804 - AudioForwarderBuffered - INFO - Sender: Task started.
+2025-06-22 06:47:55,806 - AudioForwarderBuffered - INFO - Receiver: Successfully connected to ws://localhost:8767?name=Unity_Module
+2025-06-22 06:47:57,138 - websockets.server - INFO - connection open
+2025-06-22 06:47:57,138 - AudioForwarderBuffered - INFO - Server: Client connected from ('127.0.0.1', 56278)
+2025-06-22 06:47:57,138 - AudioForwarderBuffered - INFO - Server: Active client set to ('127.0.0.1', 56278)
+2025-06-22 06:50:07,030 - AudioForwarderBuffered - INFO - Receiver: Received SAY:false, clearing buffer and data available event.
+2025-06-22 06:50:08,396 - AudioForwarderBuffered - INFO - Receiver: Received SAY:false, clearing buffer and data available event.
+2025-06-22 07:04:36,546 - AudioForwarderBuffered - INFO - Server: Cleaning up connection for ('127.0.0.1', 56278)
+2025-06-22 07:04:36,547 - AudioForwarderBuffered - INFO - Server: Active client cleared (('127.0.0.1', 56278))
+2025-06-22 07:04:36,547 - AudioForwarderBuffered - WARNING - Receiver: Connection to ws://localhost:8767?name=Unity_Module closed: sent 1011 (internal error) keepalive ping timeout; no close frame received. Retrying in 5 seconds...
+2025-06-22 07:04:41,552 - AudioForwarderBuffered - INFO - Receiver: Attempting to connect to listener at ws://localhost:8767?name=Unity_Module...
+2025-06-22 07:04:41,570 - AudioForwarderBuffered - INFO - Receiver: Successfully connected to ws://localhost:8767?name=Unity_Module
+2025-06-22 07:05:15,932 - websockets.server - INFO - connection open
+2025-06-22 07:05:15,932 - AudioForwarderBuffered - INFO - Server: Client connected from ('127.0.0.1', 45724)
+2025-06-22 07:05:15,932 - AudioForwarderBuffered - INFO - Server: Active client set to ('127.0.0.1', 45724)
+2025-06-22 07:42:16,772 - websockets.server - INFO - connection open
+2025-06-22 07:42:16,772 - AudioForwarderBuffered - INFO - Server: Client connected from ('127.0.0.1', 46408)
+2025-06-22 07:42:16,772 - AudioForwarderBuffered - INFO - Server: Active client set to ('127.0.0.1', 46408)
+2025-06-22 07:42:26,744 - AudioForwarderBuffered - INFO - Server: Cleaning up connection for ('127.0.0.1', 45724)
+2025-06-22 07:42:26,744 - AudioForwarderBuffered - INFO - Server: Disconnected client ('127.0.0.1', 45724) was not the active one.
+2025-06-22 08:21:37,747 - websockets.server - INFO - connection open
+2025-06-22 08:21:37,747 - AudioForwarderBuffered - INFO - Server: Client connected from ('127.0.0.1', 42104)
+2025-06-22 08:21:37,747 - AudioForwarderBuffered - INFO - Server: Active client set to ('127.0.0.1', 42104)
+2025-06-22 08:21:47,733 - AudioForwarderBuffered - INFO - Server: Cleaning up connection for ('127.0.0.1', 46408)
+2025-06-22 08:21:47,733 - AudioForwarderBuffered - INFO - Server: Disconnected client ('127.0.0.1', 46408) was not the active one.

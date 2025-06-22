@@ -1,0 +1,500 @@
+All WebSocket servers are running...
+[network] TTS_Module connected: ('::1', 47264, 0, 0) 
+[network] Unity_Module connected: ('::1', 39238, 0, 0) 
+[network] LLM_Module connected: ('::1', 52308, 0, 0) 
+[network] Agent_Module connected: ('::1', 43090, 0, 0) 
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourSwitchingIntervals": 2}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourSwitchingIntervals": 2}
+[network] ASR_Module connected: ('::1', 48196, 0, 0) 
+[network] Action_Module connected: ('::1', 60182, 0, 0) 
+[network] Action_Module connected: ('::1', 60198, 0, 0) 
+[network] Error: Module Action_Module Describe no close frame received or sent
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[ASR] State updated: True
+[ASR] State updated: False
+[ASR] Received Data:  what is this
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[LLM] Received Data: Ah, a name tag from Cal Hacks, you say?
+[LLM] Received Data: A gathering of minds, weaving spells of code and innovation!
+[LLM] Received Data: It warms my ancient heart to see such dedication to the craft, even in this modern age.
+[LLM] Received Data: May your endeavors be fruitful and your creations magnificent!
+[LLM] Received Data: Go forth and conjure wonders!
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[network] Unity_Module connected: ('::1', 58734, 0, 0) 
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 10, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 0, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 3, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Agent:{"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Received instruction: {"SetCatMeow": false, "NeedSetCatMeow": true}
+[Agent] Agent:{"PresetBehaviour": "Shy"}
+[Agent] Received instruction: {"PresetBehaviour": "Shy"}
+[Agent] Agent:{"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Received instruction: {"PresetPoint": "Chair_Point", "PresetBehaviour": "Sit_Down"}
+[Agent] Agent:{"PresetBehaviour": "Sit_Up"}
+[Agent] Received instruction: {"PresetBehaviour": "Sit_Up"}
+[Agent] Agent:{"PresetPoint": "Origin_Point"}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point"}
+[Agent] Agent:{"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}
+[Agent] Received instruction: {"PresetPoint": "Origin_Point", "NeedChangeView": true, "ViewIndex": 7, "OpenRandomBehaviour": true, "RandomBehaviourInterval": 10}

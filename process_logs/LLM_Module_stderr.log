@@ -1,0 +1,5 @@
+Exception ignored in: <generator object MessagesClient.create_stream at 0x7f8070518340>
+Traceback (most recent call last):
+  File "/home/itachi/Projects/python/hikari_mirror/LLM_Module/llm_module.py", line 204, in process_message
+    await session.ask_llm_stream(question+f"(visual description: {description})")
+RuntimeError: generator ignored GeneratorExit

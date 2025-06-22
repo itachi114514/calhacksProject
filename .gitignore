@@ -1,0 +1,16 @@
+/ASR_Module/src/SenseVoiceSmall/
+/ASR_Module/src/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/
+/.idea/
+/ASR_Module/funasr
+**/__pycache__
+
+/gpt_sovits/kelin
+
+# 去除pyc
+*.pyc
+
+# 隐藏.env
+.env
+
+# 忽略全部的压缩文件
+*.zip

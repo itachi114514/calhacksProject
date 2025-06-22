@@ -1,0 +1,11 @@
+已连接到服务器 ws://localhost:8766?name=LLM_Module
+收到消息: SAY:true...
+收到消息: SAY:false...
+收到消息: QUESTION: what is this...
+收到问题: what is this
+Received: Ah, a name tag from Cal Hacks, you say? A gathering of minds, weaving spells of code and innovation! It warms my ancient heart to see such dedication to the craft, even in this modern age. May your endeavors be fruitful and your creations magnificent! Go forth and conjure wonders! 
+Sent: Ah, a name tag from Cal Hacks, you say?
+Sent: A gathering of minds, weaving spells of code and innovation!
+Sent: It warms my ancient heart to see such dedication to the craft, even in this modern age.
+Sent: May your endeavors be fruitful and your creations magnificent!
+Sent: Go forth and conjure wonders!

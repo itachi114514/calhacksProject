@@ -1,0 +1,106 @@
+fall back to default bert_base_path: GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large
+fall back to default cnhuhbert_base_path: GPT_SoVITS/pretrained_models/chinese-hubert-base
+---------------------------------------------TTS Config---------------------------------------------
+device              : cuda
+is_half             : True
+version             : v2
+t2s_weights_path    : /home/itachi/Projects/python/Hikari/GPT-SoVITS/GPT_SoVITS/pretrained_models/GPT-SoVITS/gsv-v2final-pretrained/s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt
+vits_weights_path   : /home/itachi/Projects/python/Hikari/GPT-SoVITS/GPT_SoVITS/pretrained_models/GPT-SoVITS/gsv-v2final-pretrained/s2G2333k.pth
+bert_base_path      : GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large
+cnhuhbert_base_path : GPT_SoVITS/pretrained_models/chinese-hubert-base
+----------------------------------------------------------------------------------------------------
+
+Loading Text2Semantic weights from /home/itachi/Projects/python/Hikari/GPT-SoVITS/GPT_SoVITS/pretrained_models/GPT-SoVITS/gsv-v2final-pretrained/s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt
+Loading VITS weights from /home/itachi/Projects/python/Hikari/GPT-SoVITS/GPT_SoVITS/pretrained_models/GPT-SoVITS/gsv-v2final-pretrained/s2G2333k.pth
+Loading BERT weights from /home/itachi/Projects/python/Hikari/GPT-SoVITS/GPT_SoVITS/pretrained_models/GPT-SoVITS/chinese-roberta-wwm-ext-large
+Loading CNHuBERT weights from /home/itachi/Projects/python/Hikari/GPT-SoVITS/GPT_SoVITS/pretrained_models/GPT-SoVITS/chinese-hubert-base
+INFO:     127.0.0.1:57310 - "POST /tts HTTP/1.1" 200 OK
+Set seed to 3519906667
+并行推理模式已开启
+分段返回模式已开启
+分段返回模式不支持分桶处理，已自动关闭分桶处理
+分桶处理模式已关闭
+实际输入的参考文本: 可琳在记录的是茶会里上的茶点，这些茶点的样式、颜色、口味。
+当前使用g2pw进行拼音推理
+DEBUG:jieba_fast:Building prefix dict from the default dictionary ...
+DEBUG:jieba_fast:Loading model from cache /tmp/jieba.cache
+DEBUG:jieba_fast:Loading model cost 0.513 seconds.
+DEBUG:jieba_fast:Prefix dict has been built succesfully.
+############ 切分文本 ############
+实际输入的目标文本:
+.Ah, a name tag from Cal Hacks, you say?
+实际输入的目标文本(切句后):
+['.Ah, a name tag from Cal Hacks, you say?']
+############ 推理 ############
+############ 提取文本Bert特征 ############
+前端处理后的文本(每句): ['.Ah, a name tag from Cal Hacks, you say? ']
+T2S Decoding EOS [199 -> 266]
+2.557	0.000	3.543	0.255
+INFO:     127.0.0.1:57310 - "POST /tts HTTP/1.1" 200 OK
+Set seed to 136713425
+并行推理模式已开启
+分段返回模式已开启
+分段返回模式不支持分桶处理，已自动关闭分桶处理
+分桶处理模式已关闭
+实际输入的参考文本: 可琳在记录的是茶会里上的茶点，这些茶点的样式、颜色、口味。
+############ 切分文本 ############
+实际输入的目标文本:
+A gathering of minds, weaving spells of code and innovation!
+实际输入的目标文本(切句后):
+['A gathering of minds, weaving spells of code and innovation!']
+############ 推理 ############
+############ 提取文本Bert特征 ############
+前端处理后的文本(每句): ['A gathering of minds, weaving spells of code and innovation! ']
+T2S Decoding EOS [199 -> 307]
+0.000	0.001	1.073	0.147
+INFO:     127.0.0.1:57310 - "POST /tts HTTP/1.1" 200 OK
+Set seed to 2324429003
+并行推理模式已开启
+分段返回模式已开启
+分段返回模式不支持分桶处理，已自动关闭分桶处理
+分桶处理模式已关闭
+实际输入的参考文本: 可琳在记录的是茶会里上的茶点，这些茶点的样式、颜色、口味。
+############ 切分文本 ############
+实际输入的目标文本:
+It warms my ancient heart to see such dedication to the craft, even in this modern age.
+实际输入的目标文本(切句后):
+['It warms my ancient heart to see such dedication to the craft, even in this modern age.']
+############ 推理 ############
+############ 提取文本Bert特征 ############
+前端处理后的文本(每句): ['It warms my ancient heart to see such dedication to the craft, even in this modern age. ']
+T2S Decoding EOS [199 -> 346]
+0.000	0.000	1.260	0.265
+INFO:     127.0.0.1:57310 - "POST /tts HTTP/1.1" 200 OK
+Set seed to 3416588242
+并行推理模式已开启
+分段返回模式已开启
+分段返回模式不支持分桶处理，已自动关闭分桶处理
+分桶处理模式已关闭
+实际输入的参考文本: 可琳在记录的是茶会里上的茶点，这些茶点的样式、颜色、口味。
+############ 切分文本 ############
+实际输入的目标文本:
+May your endeavors be fruitful and your creations magnificent!
+实际输入的目标文本(切句后):
+['May your endeavors be fruitful and your creations magnificent!']
+############ 推理 ############
+############ 提取文本Bert特征 ############
+前端处理后的文本(每句): ['May your endeavors be fruitful and your creations magnificent! ']
+T2S Decoding EOS [199 -> 295]
+0.000	0.000	0.832	0.108
+INFO:     127.0.0.1:57310 - "POST /tts HTTP/1.1" 200 OK
+Set seed to 1832446278
+并行推理模式已开启
+分段返回模式已开启
+分段返回模式不支持分桶处理，已自动关闭分桶处理
+分桶处理模式已关闭
+实际输入的参考文本: 可琳在记录的是茶会里上的茶点，这些茶点的样式、颜色、口味。
+############ 切分文本 ############
+实际输入的目标文本:
+Go forth and conjure wonders!
+实际输入的目标文本(切句后):
+['Go forth and conjure wonders!']
+############ 推理 ############
+############ 提取文本Bert特征 ############
+前端处理后的文本(每句): ['Go forth and conjure wonders! ']
+T2S Decoding EOS [199 -> 242]
+0.000	0.000	0.407	0.111
