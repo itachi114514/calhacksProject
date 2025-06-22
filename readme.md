@@ -1,94 +1,90 @@
-# Hikari Mirror
-*also readme for server.py*
+## Inspiration
+It's nothing new nowadays that many people, especially the introverted ones, are indulged in their own imaginary world, whether it's game or anime or fantasy works. The common problem is that they often can't get and enjoy the emotional satisfaction that people can get from interaction and socializing with real humans due to the limited freedom in the interaction they have with the imaginary characters. Thus, we want create an active, customizable AI chatbot to bring immersive intimate interaction with people.
+## What it does
+Our goal is to create AI chatbots with lively 3D models, actively responsive speech with trained synthesized voice, brilliant minds with long-term memory, and audio-motivated actions that can satisfies people's desire for communication. 
+## How we built it
+The whole workflow is composed of several modules: `ASR module` transcribing raw streaming audio data to text, `LLM module` using `claude` to generate text response to the transcribed audio text while creating a `list control file` to manage the chat history, `TTS module` that receives the generated text and passes to  `GPTSovits` which synthesizes the audio data using trained models and give back to the `TTS Module` and finally passed to our frontend, which is a `Unity` project where there is a 3D model with action (there's the `Action modul`e controlled by user's audio input) and sound to interact with the user. All the transfer of data in and out the modules are connected through the `server.py `using `websockets`. We also have a system state management bool variable: `say` that shows whether the speaker is speaing so as to coordinate the wrkflow in modules. The following is more specifically how each module works and their key parts:
+### 1. ASR Module (port 8765)
 
-TODO:
-* Overall(`Server.py`)
+- **Input**: 16 kHz PCM audio frames from the user’s microphone  
+- **Processing**:  
+  - **VAD** (Voice Activity Detection) to find speech segments  
+  - **Acoustic fingerprints** for optional speaker recognition  
+  - **Transcription** via two streaming ASR models (e.g., Faster Whisper & FunASR)  
+- **Output**: streaming processed transcribed 'text' to the server 
 
-   - [x] 为每个模块添加readme
-   - [x] 将mubai最新的改动合并进来
-   - [ ] 模块看门狗+重连
-   - [x] ~~写一个启动所有模块的主入口~~ 写`.sh🍥` 和 `.bat`
-   - [ ] 弃用funasr
+### 2. LLM Module (port 8766)
 
-* ASR_Module
+- **Input**: text messages from the server passed by the ASR Module
+- **Processing**:  
+  1. Append the user’s transcript to the **list control file**
+  2. Use the listctl.py (list control) to keep the chat history and send the updated history + latest transcript to **Claude** for response generation 
+  3. Use cv2 and gemini to capture the user’s image description, which is then passed to Claude as context
+  3. Update the list control file with Claude’s reply  
+- **Output**: streaming response text sentence back to the server from **Claude**
 
-   - [x] 声纹识别
-   - [x] 更新中间件及统一传输协议
-   - [x] 修复语音识别bug
-   - [ ] 使用小模型判断对话是否延续
-   
-* Interaction_Module
+### 3. TTS Module (port 8768) & GPTSovits (port 9880)
 
-   - [x] 人脸识别
-   - [x] 头部姿态估计
-   - [x] WebSocket 消息交互
-   - [x] 更新统一数据协议
-   - [ ] 增加行为识别（如眨眼、张嘴）
-   - [ ] 多人姿态关联（谁在正对摄像头）
-   - [ ] 集成语音唤醒（与 TTS 模块联动）
+- **Input**:  
+- ```json
+    payload = {
+        "text": text,
+        "text_lang": "zh",
+        "ref_audio_path": REF_AUDIO_PATH,
+        "aux_ref_audio_paths": [],
+        "prompt_text": REF_PROMPT_TEXT,
+        "prompt_lang": "zh",
+        "top_k": 5,
+        "top_p": 1,
+        "temperature": 1,
+        "text_split_method": "cut0",
+        "batch_size": 1,
+        "batch_threshold": 0.75,
+        "split_bucket": True,  
+        "speed_factor": 1.0,
+        "streaming_mode": True,  
+        "seed": -1,
+        "parallel_infer": True,  
+        "repetition_penalty": 1.35
+    }
+- **Processing**:  
+  1. Extract the `"text"` field from the LLM response  
+  2. Forward the text payload to **GPTSovits** for neural-vocoder synthesis based on our own trained model  
+  3. Receive streamed PCM audio chunks back from GPTSovits  
+- **Output**: streaming audio chunks to the server in real-time
 
-* LLM_Module
+### 4. Action Module (port 8771)
+- **Input**: Action Module receives transcribed text messages from the ASR Module through server
+- **Processing**:
+  1. Parse any embedded `<action>` tags in the original LLM payload (e.g. `<nod>`, `<wave>`)  
+- **Output**: Send these actions to the Unity Module via WebSocket
+  
+### 5. Unity Module (port 8767)
+- **Input**: Unity Module receives JSON commands from Action Module and “audio_chunk” messages from the TTS Module through server
+- **Processing**:  
+  1. Parse the JSON commands to trigger specific actions (e.g., `<nod>`, `<wave>`)  
+  2. Play the audio chunks in real time using Unity's audio engine
 
-   - [x] 角色人格注入（胡桃设定）
-   - [x] 支持打断生成
-   - [x] 增量句子输出（含终止符判断）
-   - [ ] 多角色切换支持（如钟离、可莉）
-   - [ ] 增强情绪识别与应答调整 [half]
-   - [ ] 接入视觉/听觉环境输入（如 `ENV:`/`PEO:`）[half]
+## Challenges we ran into
+1. In a very noisy environment, if we don't tune the voice activity detection's threshold, the ASR module will first transcribe the noise as speech, and second the state of SAY indicating if the user is speaking is always on, which will mess up the later process.
+2. The target user may not be the only one speaking in the environment, so we need to filter out other people's voices and only transcribe the target user's voice. We designed a noise-canceling algorithm with RMS to filter noise and used clipper embedding of the acoustic fingerprints of a target user to compare with that of the current audio input, and after calculating the similarity of these two vector sets using `torch.nn.cos` to filter peoples' voices other than the target user.
+## Accomplishments that we're proud of
+- What make the whole project more creative and adds more fun is that we used `cv2` library to capture the visual data, a picture of the user, and used `gemini` to have a visual understanding that will help the `claude` to interpret the description of the using environment and generate better response.
+- In the 'ASR module', we used self-designed `noise-canceling algorithm with rms` to filter noise and used clipper embedding of the acoustic fingerprints of a target user to compare with that of the current audio input, and after calculating the similarity of these two vector sets using `torch.nn.cos` to filter peoples' voices other than the target user.
+- Also in the `ASR module`, we used `funasr` to transcribe Chinese while using `faster-whisper` to transcribe English. 
+- In the `LLM module`, we had another option to process the streaming text using the frameworks of `letta`, which is more convenient to manage the history of chat sessions and emphasizes the persona of the character though its models are always reasoning, causing a bit latency in instantaneous interaction.
 
-* TTS_Module
+## What we learned
+- How to use `websockets` to transfer data between modules, and combined with `asyncio` to handle the real-time streaming data and coordiante modules properly.
+- How to use `funasr` and `faster-whisper` to transcribe audio data in different languages.
+- How to use `GPTSovits` to synthesize audio data from text responses.
+- How to use `Unity` to create a 3D model and animate it based on the audio data and actions.
+- How to use `Action Module` to parse and trigger actions based on the transcribed text messages.
+- How to use `torch.nn.cos` to calculate the similarity of acoustic fingerprints for speaker recognition.
+- How to use `letta` to manage the history of chat sessions and emphasize the persona of the character.
+- How to use `asyncio` to handle real-time streaming data and coordinate modules properly.
 
-   - [x] 流式音频数据发送
-   - [x] 语音请求
-   - [x] 打断功能
+## What's next for Untitled
+We add a new module called `Interaction Module` where we apply VAPI to allow the character to interact with the user by calling them.
 
-* Unity_Module
-
-   - [x] 基于 buffer 的音频转发逻辑
-   - [x] 支持动作指令 `SWITCH_ACTION` 随机切换
-   - [x] 接收中断指令 `SAY:false` 并清空缓冲区
-   - [ ] `audio_buffer` 使用 `bytearray` 管理，谨防溢出。(?)
-   - [ ] `SWITCH_ACTION`与交谈内容相关的动作调用，先用提示词注入实现。*已经实现了，只需要整合*
-   - [ ] 与大飞老师的excel对齐一下 `@addone`
-
-* gpt_sovits
-
-    - [ ] 更新到v3以解决LangSegment最高支持为0.2.0的问题
-
-## 模块介绍
-1. **ASR_Module** (`port: 8765`)
-   - 接收音频数据并转换为文本。
-   - 通过VoiceID进行声纹识别。
-   - 使用VAD进行语音活动检测并判断打断SAY:。
-   - 转发文本数据到 `LLM_Module`。
-   
-2. **LLM_Module** (`port: 8766`)
-   - 接收文本数据并生成回答。
-   - 转发文本数据到 `TTS_Module`。
-
-3. **Unity_Module** (`port: 8767`)
-   - 接收音频数据（由 `TTS_Module` 转发），并执行相关动作。
-   
-4. **TTS_Module** (`port: 8768`)
-   - 接收文本数据并将其转换为语音。
-   - 将生成的音频数据传送给 `Unity_Module`。
-
-5. **Interaction_Module** (`port: 8770`)
-   - 接收指令，触发 `LLM_Module` 生成回答。
-
-6. **gpt_sovits** (`port: 9880`)
-   - 用于语音合成，接收文本并生成对应的音频。与 `TTS_Module` 协同工作。
-    
-### 模块之间的通信流程：
-1. `ASR_Module` 通过 WebSocket 接收音频数据，转换为文本并转发到 `LLM_Module`。
-2. `LLM_Module` 生成文本回答并将其传递到 `TTS_Module`。
-3. `TTS_Module` 转换文本为音频并通过 WebSocket 转发给 `Unity_Module`。
-4. `Unity_Module` 播放接收到的音频与发送动作。
-5. `Interaction_Module` 接收命令并触发 `LLM_Module` 生成相应的回答。
-
-### 系统状态管理：
-- `SAY:bool`: 全局打断符。
-- `generating:bool`: 音频生成状态。
-~~- `audio_end`: 目前没有用法。不用管。  LLM module生成的时候会阻塞，用这个状态标志生成完成，被`generating:bool`取代了~~
-
-
+Another feature in the Interaction Module is to take the user's facial expression as visual input and allows the character to look at the user to create a more immersive interaction environment.
